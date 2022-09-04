@@ -1,0 +1,48 @@
+/* profile */
+.profile-img img {
+  height: 400px;
+  object-fit: cover;
+  object-position: 100% 0;
+}
+
+
+
+/* レスポンシブ768px */
+@media screen and (min-width: 768px) {
+  /* for iPad */
+
+  /* padding */
+
+
+  /* profile */
+  .profile-img img {
+    height: auto;
+  }
+
+
+
+}
+
+
+/* レスポンシブ1024px */
+@media screen and (min-width: 1024px) {
+  /* for pc */
+
+
+
+  .profile-img img {
+    width: 470px;
+    height: 600px;
+  }
+
+  .profile-img {
+    margin-right: 100px;
+  }
+
+}
+
+
+
+/* *{
+  outline: 2px solid red;
+} */
